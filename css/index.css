@@ -66,6 +66,20 @@ p {
     line-height: 1.4;
 }
 
+nav{
+    width: 800px;
+    margin: 0 auto;
+    padding: 2%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav a{
+    text-decoration: none;
+    color:black; 
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -100,7 +114,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+/* 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -110,6 +124,144 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+/* 
+.box{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.boxes .box1{
+    background-color: teal;
+}
+
+.boxes .box2{
+    background-color: gold;
+} 
+
+.boxes .box3{
+    background-color: cadetblue;
+} 
+
+.boxes .box4{
+    background-color: coral;
+} 
+
+.boxes .box5{
+    background-color: crimson;
+} 
+
+.boxes .box6{
+    background-color: forestgreen;
+} 
+
+.boxes .box7{
+    background-color: darkorchid;
+} 
+
+.boxes .box8{
+    background-color: hotpink;
+} 
+
+.boxes .box9{
+    background-color: indigo;
+} 
+
+.boxes .box10{
+    background-color: dodgerblue;
+}  */
+
+.middle-content .boxes {
+    margin-right:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    /* background:black; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxes{
+    width:800px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    color:white;
+}
+
+.boxes .box1{
+    height:100px;
+    width:100px;
+    margin:3%;
+    background-color:teal;
+}
+.boxes .box2{
+    height:100px;
+    width:100px;
+    margin:3%;
+    background-color:gold;
+}
+.boxes .box3{
+    height:100px;
+    width:100px;
+    margin:3%;
+    background-color:cadetblue;
+}
+.boxes .box4{
+    height:100px;
+    width:100px;
+    margin:3%;
+    background-color:coral;
+}
+.boxes .box5{
+    height:100px;
+    width:100px;
+    margin:3%;
+    background-color:crimson;
+}
+.boxes .box6{
+    height:100px;
+    width:100px;
+    margin:3%;
+    background-color:forestgreen;
+}
+.boxes .box7{
+    height:100px;
+    width:100px;
+    margin:3%;
+    background-color:darkorchid;
+}
+.boxes .box8{
+    height:100px;
+    width:100px;
+    margin:3%;
+    background-color:hotpink;
+}
+.boxes .box9{
+    height:100px;
+    width:100px;
+    margin:3%;
+    background-color: indigo;
+}
+.boxes .box10{
+    height:100px;
+    width:100px;
+    margin:3%;
+    background-color: dodgerblue;
 }
 
 .bottom-content {
